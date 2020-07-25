@@ -1,0 +1,21 @@
+console.log("Hello")
+let a=prompt("Enter the first number");
+let b=prompt("Enter the second number");
+a=parseInt(a);
+b=parseInt(b);
+addition=a+b;
+substraction=a-b;
+Multiplication=a*b;
+Division=a/b;
+Exponent=a**b;
+c=prompt("Enter a number to be squarerooted");
+c=parseInt(c)
+console.log("Addition= "+ addition);
+console.log("Substraction= "+ substraction);
+console.log("MuLtiplication= " + Multiplication);
+console.log("Division= "+ Division);
+console.log("Exponent= " + Exponent);
+console.log("SquareRoot= " + Math.sqrt(c))
+console.log("Modulo= " + a%b);
+percentage=a*(20/100)
+console.log("20 Percentage of a= "+ percentage);
